@@ -49,3 +49,7 @@ failed; exit 2 gives an `error` object for invalid input.
 
 Use synthetic or pre-redacted logs. Output can contain whatever was present
 in the supplied logs; control removal and truncation are not secret redaction.
+
+## License
+
+[MIT](LICENSE). Copyright © 2026 Nuri Mamedov. Keep the copyright and license notice when copying or redistributing substantial portions.
