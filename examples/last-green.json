@@ -1,0 +1,9 @@
+{
+  "run_id": "sample-41",
+  "status": "SUCCESS",
+  "stages": [
+    {"name": "Build", "status": "SUCCESS", "duration_ms": 3650, "log": "Compiled sample service"},
+    {"name": "Integration test", "status": "SUCCESS", "duration_ms": 3200, "log": "WARN optional cache is disabled\nOrderQueued event observed"},
+    {"name": "Package", "status": "SUCCESS", "duration_ms": 1700, "log": "Packaged sample service"}
+  ]
+}

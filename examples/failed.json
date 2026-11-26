@@ -1,0 +1,9 @@
+{
+  "run_id": "sample-42",
+  "status": "FAILURE",
+  "stages": [
+    {"name": "Build", "status": "SUCCESS", "duration_ms": 3600, "log": "Compiled sample service"},
+    {"name": "Integration test", "status": "FAILURE", "duration_ms": 5100, "log": "WARN optional cache is disabled\nERROR expected OrderQueued event was not observed\nFixture cleanup complete"},
+    {"name": "Package", "status": "NOT_RUN"}
+  ]
+}
